@@ -4,6 +4,8 @@ An install script for when you're setting up a new device, running barebones lin
 ## Get Me!
 #### `wget https://git.io/vNbyk -O Installer.sh && bash Installer.sh`
 
+## About
+
 The script is designed to be modified by the user in order for them to select what packages they would like to install. It will update and upgrade the distro, and then proceed to install packages.   
 
 #### The bare bones script installs nmap, vim, openvpn, git, netcat and arp-scan.  
