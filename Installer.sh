@@ -16,8 +16,8 @@ case $answer in
 		#Install OpenVPN Server
 		#wget https://git.io/vpn -O openvpn.sh && bash openvpn.sh
 
-		#Install BitchX, a terminal IRC Client
-		#sudo apt-get install bitchx
+		#Install irssi, a terminal IRC Client
+		#sudo apt-get install irssi
 
 		#Install HexChat, a GUI based IRC Client
 		# sudo apt-get install hexchat
