@@ -1,8 +1,10 @@
 # Installer
 An install script for when you're setting up a new device, running barebones linux, and need to add packages to it.  
-
+Requires Apt to be installed in order to work
+I've only tested this so far on Debian, so make a PR and let me know if you have any issues. 
+y. 
 ## Get Me!
-#### `wget https://git.io/vNbyk -O Installer.sh && bash Installer.sh`
+#### `wget https://git.io/vNbyk -O installer.sh && bash installer.sh`
 
 ## About
 
