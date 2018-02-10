@@ -11,7 +11,11 @@ case $answer in
 		#Install the basics
 		sudo apt-get update && sudo apt-get upgrade -y
 
-		sudo apt-get install nmap vim openvpn git netcat arp-scan -y
+		sudo apt-get install nmap vim openvpn git netcat arp-scan reaver tcpdump -y
+		
+		#Installing Ettercap
+		sudo apt-get install debhelper cmake bison flex libgtk2.0-dev libltdl3-dev libncurses-dev libncurses5-dev\ libnet1-dev libpcap-dev libpcre3-dev libssl-dev libcurl4-openssl-dev ghostscript ettercap-text-only
+		
 
 		#Install OpenVPN Server
 		#wget https://git.io/vpn -O openvpn.sh && bash openvpn.sh
