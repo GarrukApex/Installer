@@ -13,7 +13,7 @@ The script is designed to be modified by the user in order for them to select wh
 #### The bare bones script installs nmap, vim, openvpn, git, netcat, arp-scan, reaver and tcpdump.
 This script is geared towards pentest drop boxes, because I got tired of installing the same packages over and over again. 
 ### The user can elect to install packages such as:  
-* BitchX, a terminal IRC Client  
+* irssi, a terminal IRC Client  
 * HexChat, a GUI IRC client  
 * Some pentesting tools, inclcuding aircrack-ng, ddrescue, sqlmap, exploitdb and tshark  
 * The Metasploit community framework  
