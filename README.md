@@ -12,7 +12,7 @@ There are currently two installation scripts, one for apt/debian based distros, 
 
 #### The bare bones script installs nmap, vim, openvpn, git, netcat, arp-scan, reaver and tcpdump.
 <br> 
-### The user can elect to install packages such as:  
+### The user can elect to install packages such as:<br>
 * IRSSI, a terminal IRC Client  
 * HexChat, a GUI IRC client  
 * Some pentesting tools, inclcuding aircrack-ng, ddrescue, sqlmap, exploitdb and tshark  
