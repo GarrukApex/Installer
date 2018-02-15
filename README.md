@@ -10,12 +10,12 @@ y.
 The script is designed to be modified by the user in order for them to select what packages they would like to install. It will update and upgrade the distro, and then proceed to install packages.   
 There are currently two installation scripts, one for apt/debian based distros, and one for opkg/OpenWrt based devices. 
 
-#### The bare bones script installs nmap, vim, openvpn, git, netcat, arp-scan, reaver and tcpdump.
+#### The bare bones script installs nmap, vim, openvpn, git, netcat, arp-scan, reaver and tshark.
 <br> 
 ### The user can elect to install packages such as:
 
  * IRSSI, a terminal IRC Client  
  * HexChat, a GUI IRC client  
- * Some pentesting tools, inclcuding aircrack-ng, ddrescue, sqlmap, exploitdb and tshark  
+ * Some pentesting tools, inclcuding aircrack-ng, ddrescue, sqlmap, and exploitdb.
  * The Metasploit community framework  
 
