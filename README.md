@@ -10,7 +10,7 @@ y.
 The script is designed to be modified by the user in order for them to select what packages they would like to install. It will update and upgrade the distro, and then proceed to install packages.   
 There are currently two installation scripts, one for apt/debian based distros, and one for opkg/OpenWrt based devices. 
 
-#### The bare bones script installs nmap, vim, openvpn, git, netcat, arp-scan, reaver and tshark.
+#### The bare bones script installs nmap, vim, openvpn, git, netcat, arp-scan, reaver, screen, and tshark.
 <br> 
 ### The user can elect to install packages such as:
 
