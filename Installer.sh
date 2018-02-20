@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#Made by GarrukApex, 2018
+#Made by PwnKitteh, 2018
 
 echo "This script is designed to install software that doesn't come by default on most Raspberry Pis/Bare bones linux distros. This is software that I find useful. You might not find the same software useful. Feel free to modify this script to your liking." 
 read -p "Would you like to continue?: [Y/N]" answer
@@ -36,7 +36,7 @@ case $answer in
 		case $openvpn in
 			[Yy]* )
 				#Install OpenVPN Server
-				#wget https://git.io/vpn -O openvpn.sh && bash openvpn.sh
+				wget https://git.io/vpn -O openvpn.sh && bash openvpn.sh
 				;;
 			*) ;;
 		esac
@@ -45,7 +45,7 @@ case $answer in
 			[Yy]* )
 				
 				#Install irssi, a terminal IRC Client
-				#sudo apt-get install irssi
+				sudo apt-get install irssi
 			;;
 			*) ;;
 		esac
@@ -54,7 +54,7 @@ case $answer in
 			[Yy]* )
 				
 				#Install HexChat, a GUI based IRC Client
-				# sudo apt-get install hexchat
+				sudo apt-get install hexchat
 
 			;;
 			* ) ;;
@@ -63,7 +63,7 @@ case $answer in
 		case $pentest in
 			[Yy]* )
 				#Pentesting tools
-				#sudo apt-get install aircrack-ng ddrescue sqlmap exploitdb -y
+				sudo apt-get install aircrack-ng ddrescue sqlmap exploitdb -y
 				;;
 			* ) ;;
 		esac
