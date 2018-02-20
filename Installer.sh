@@ -4,7 +4,7 @@
 
 echo "This script is designed to install software that doesn't come by default on most Raspberry Pis/Bare bones linux distros. This is software that I find useful. You might not find the same software useful. Feel free to modify this script to your liking." 
 #Uncomment the lines below to install software that doesn't install by default. 
-read -p "Would you like to continue or modify the script before running?: [Y/N]" answer
+read -p "Would you like to continue without modifying the script (Y) or modify the script before running(N)?: [Y/N]" answer
 
 case $answer in 
 	[Yy]* ) 
