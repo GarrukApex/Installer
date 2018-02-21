@@ -4,7 +4,9 @@ I've only tested this so far on Debian, so let me know if you have any issues.
 
 ## Get Me!
 #### Debian/Apt `wget https://git.io/vNbyk -O installer.sh && bash installer.sh`
-#### OPKG/OpenWRT `wget https://git.io/vAtVB -O installer.sh && sh installer.sh` (STILL EXPERIMENTAL) 
+#### OPKG/OpenWRT `wget https://git.io/vAtVB -O installer.sh && sh installer.sh` 
+### (STILL EXPERIMENTAL) 
+<br><br>
 ## About
 
 The script is designed to be modified by the user in order for them to select what packages they would like to install. It will update and upgrade the distro, and then proceed to install packages.   
