@@ -1,7 +1,7 @@
 # Installer
 An install script for when you're setting up a new device, running barebones linux, and need to add packages to it. It's mainly designed for pentesting "dropboxes", or devices that you drop onto a network in order to get a shell once you're outside. As such, most of the software I'm installing is for pentesting, but there are some generally useful tools that are installed through the barebones installation.   
 I've only tested this so far on Debian, so let me know if you have any issues. 
-y. 
+
 ## Get Me!
 #### Debian/Apt `wget https://git.io/vNbyk -O installer.sh && bash installer.sh`
 #### OPKG/OpenWRT `wget https://git.io/vAtVB -O installer.sh && sh installer.sh` (STILL EXPERIMENTAL) 
