@@ -9,6 +9,8 @@ I've only tested this so far on Debian, so let me know if you have any issues.
 <br><br>
 ## About
 
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/https://www.youtube.com/watch?v=s_u1TN4s8bc/0.jpg)](https://www.youtube.com/watch?v=https://www.youtube.com/watch?v=s_u1TN4s8bc)
+
 The script is designed to be modified by the user in order for them to select what packages they would like to install. It will update and upgrade the distro, and then proceed to install packages.   
 There are currently two installation scripts, one for apt/debian based distros, and one for opkg/OpenWrt based devices. 
 
